@@ -3,3 +3,4 @@ venv
 cache
 *.pyc
 *.pyo
+faiss_index
