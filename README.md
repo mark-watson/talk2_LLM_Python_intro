@@ -2,5 +2,7 @@
 
 Meetup.com talk: [https://www.meetup.com/mark-watsons-informal-ai-presentations-and-group-chats/events/302691222/](https://www.meetup.com/mark-watsons-informal-ai-presentations-and-group-chats/events/302691222/)
 
+The starting topic of conversation will be using large model contexts vs. using vector stores.
+
 The meeting will start with a short demo and then
 as a group we will discuss current projects and our use cases for LLMs.
