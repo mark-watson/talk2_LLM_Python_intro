@@ -21,7 +21,7 @@ vectorstore.save_local("faiss_index")
 loaded_vectorstore = FAISS.load_local("faiss_index", embedding, allow_dangerous_deserialization=True)
 
 # Initialize LLM
-llm = ChatOpenAI(model="gpt-4")
+llm = ChatOpenAI(model="gpt-4o-mini")
 
 # Create a RetrievalQA chain
 qa_chain = RetrievalQA.from_chain_type(

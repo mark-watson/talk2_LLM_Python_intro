@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 
-llm = ChatOpenAI(model="gpt-4o") # context window of 128k tokens
+llm = ChatOpenAI(model="gpt-4o-mini") # context window of 128k tokens
 
 text = open('economics.txt', 'r').read()
 

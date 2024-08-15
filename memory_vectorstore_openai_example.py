@@ -6,7 +6,7 @@ from langchain.indexes import VectorstoreIndexCreator
 embedding = OpenAIEmbeddings(model="text-embedding-ada-002")
 loader = TextLoader("economics.txt")
 index = VectorstoreIndexCreator(embedding=embedding).from_loaders([loader])
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model="gpt-4o-mini")
 
 questions = [
     "Who says economics is bullshit?",
