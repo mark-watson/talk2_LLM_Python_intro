@@ -1,5 +1,3 @@
-# from FastChat docs:
-
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(model="gpt-4o") # context window of 128k tokens
@@ -21,4 +19,3 @@ for query in questions:
     ]
     answer = llm.invoke(messages)
     print("Answer:", answer.content)
-
